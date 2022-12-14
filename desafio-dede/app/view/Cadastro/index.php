@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
     <link rel="stylesheet" href="switch.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,11 +11,11 @@
     <div class="pc-container">
         <div class="pc-containerL pc-containerL-style">
             <h1>BANANEIRA DE BANANA</h1>
-            <img src="banana-sem-fundo.png" class="banana">
+            <img src="../../../public/image/banana-sem-fundo.png" class="banana">
 
         </div>
         <div class="pc-containerR pc-containerR-style">
-            <form action="dashboard_produtos.php" method="post">
+            <form action="../produto/index.php" method="post">
                 <h2>Cadastre-se para completar suas compras.</h2>
                 <div>
                     <input class="pc-input pc-containerL  mobile-resposive" placeholder="Nome" type="text" id="nome" name="nome" />
@@ -58,7 +58,7 @@
             </form>
 
             <div>
-                <form action="login_clientes.php">
+                <form action="../login/index.php">
                     <input class="pc-botao" value="LOGIN" type="submit"></input>
                 </form>
 

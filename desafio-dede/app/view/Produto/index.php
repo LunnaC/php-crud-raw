@@ -1,15 +1,16 @@
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
 </head>
 
 <body>
 
     <div class="listaL">
         <ul>
-            <li> <img src="banana-sem-fundo.png" class="banana-mini"></li>
-            <li> <a href="dashboard_produtos.php">Produtos</a> </li>
-            <li> <a href="dashboard_cad.php">Cadastros dos Clientes</a> </li>
-            <li> <a href="dashboard_config.php">Configuracao de Conta</a> </li>
+            <li> <img src="../../../public/image/banana-sem-fundo.png" class="banana-mini"></li>
+            <li> <a href="../produto/index.php">Produtos</a> </li>
+            <li> <a href="../cliente/EditCliente/index.php">Configuracao de Conta</a> </li>
+            <li> <a href="../cliente/GetCliente/index.php">Cadastros dos Clientes</a> </li>
+        
         </ul>
     </div>
 

@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
     <link rel="stylesheet" href="switch.css">
 </head>
 
@@ -10,7 +10,7 @@
             <h1>BANANEIRA DE BANANA</h1>
             <h2>Faça seu login para continuar.</h2>
         </div>
-        <form action="dashboard_produtos.php" method="post">
+        <form action="../produto/index.php" method="post">
             <div>
                 <input class="pc-input-login" placeholder="Seu Email" type="email" id="email" name="email" />
             </div>
@@ -23,7 +23,7 @@
 
         </form>
         <div>
-            <form action="cadastro_clientes.php">
+            <form action="../cadastro/index.php">
                 <input class="pc-botao" value="CADASTRAR" type="submit"></input>
             </form>
         </div>
